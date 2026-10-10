@@ -1,5 +1,5 @@
 //% color="#772299" weight=90
-//% groups="['Simple particles', 'Texture Particles', 'Animated Particles', 'Fire Particles', 'other']"
+//% groups="['Simple particles', 'Texture Particles', 'Animated Particles', 'Fire Particles', 'a']"
 namespace advancedParticles{
     function randomFromRange(range: number[]) {
         return randint(range[0], range[1])
@@ -51,9 +51,9 @@ namespace advancedParticles{
         }
     }
     //% block="accelerate $particle in direction of $direction degrees at %strength px/s"
-    //% group="other"
+    //% group="a"
     export function accelerate(particle:Particle, direction:number, strength:number){
-        particle.accelerate(direction * (180/Math.PI), strength)
+        particle.accelerate(direction * (Math.PI/180), strength)
     }
     export class SimpleParticle extends Particle {
         color: number
