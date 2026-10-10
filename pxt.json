@@ -1,0 +1,27 @@
+{
+    "name": "advanced particles",
+    "description": "just particles and spawners, no skipframes and nothing that wasnt in the block-object version.",
+    "dependencies": {
+        "device": "*",
+        "arcade-drawing-utils": "github:riknoll/arcade-drawing-utils#v0.1.1"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only"
+}
