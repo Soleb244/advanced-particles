@@ -1,5 +1,6 @@
 {
     "name": "advanced particles",
+    "version": "0.0.1",
     "description": "just particles and spawners, no skipframes and nothing that wasnt in the block-object version.",
     "dependencies": {
         "device": "*",
