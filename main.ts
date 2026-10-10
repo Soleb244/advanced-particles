@@ -56,6 +56,7 @@ namespace advancedParticles{
         particle.accelerate(direction * (Math.PI/180), strength)
     }
     //% block="delete %particle"
+    //% particle.shadow="myParticle"
     //% group="others"
     export function remove(particle:Particle){
         particle.kill()
