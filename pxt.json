@@ -1,7 +1,7 @@
 {
     "name": "advanced particles",
     "version": "1.0.0",
-    "description": "just particles and spawners, no skipframes and nothing that wasnt in the block-object version.",
+    "description": "beta version, particles and particle spawners",
     "dependencies": {
         "device": "*",
         "arcade-drawing-utils": "github:riknoll/arcade-drawing-utils#v0.1.1"
