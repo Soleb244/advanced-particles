@@ -1,6 +1,6 @@
 {
     "name": "advanced particles",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "beta version, particles and particle spawners",
     "dependencies": {
         "device": "*",
